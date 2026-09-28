@@ -1,0 +1,10 @@
+# Java build output
+/bin/
+/out/
+/target/
+*.class
+
+# Local IDE workspace and operating system files
+.metadata/
+.DS_Store
+Thumbs.db
