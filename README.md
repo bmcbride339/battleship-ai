@@ -64,11 +64,6 @@ In target mode, the algorithm uses depth-first search to find connected hit clus
 | `GameState`, `GameStats`, `Shot` | Track game state, statistics, and coordinates |
 | `AIPlayer` | Defines the strategy interface |
 
-## Current limitations
-
-The manual interface marks cells surrounding a sunk ship as misses, so it assumes ships do not touch, including diagonally. The simulator prevents overlapping ships but permits touching ships, so its placement rules differ from the manual interface. Connected-hit grouping and sunk-cluster detection use heuristics and may be imperfect for touching ships.
-
-Simulation averages describe this implementation and are not a claim of an optimal Battleship strategy.
 
 ## Author
 
